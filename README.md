@@ -29,7 +29,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
    example: A company may run everything on their data center but use cloud providers for their data backup.
  
  
- ### Terms related to cloud computing.
+ ### Advantages of cloud computing.
  
  1.  Scalabilty: The ability of a system to handle growth of users or work.
  2.  Elasticity: The ability of a system to automatically grow and shrink based on app demand
@@ -41,8 +41,10 @@ In simple terms cloud is a computer that is located somewhere else which can be 
  8.  (Consumption based model)Pay-as-you-go: You are only charged for what you use and for how long you use it.
 
 
-### Benefits of cloud Computing.
-- Fault Tolerance:Failure of components
+### Other benefits of cloud Computing.
+-  Fault Tolerance:Failure of components.
+-  High Availability: The ability to keep services up and running for long periods of time.
+-  Disaster Reconvery: The ability to recover from an event which has taken down a cloud service.For example: Data center failure .We can Azure use site recovery to bring instances quickly.
 
 ### Shared responsibility model
 
@@ -63,3 +65,20 @@ In simple terms cloud is a computer that is located somewhere else which can be 
   -  Customer is only responsible for their data.
   -  Everything is taken care of by CSP.
 
+
+### Azure Architecture components
+
+-  Azure Geography
+    -  A discrete market,typically containing two or more regions,that preserves data residency and compliance boundaries.
+    
+-  Azure Regions
+    -  A set of data centers connected through low-latency networks.
+    
+-  Region Pairs
+    -  A relationship between two azure regions within the same geographic regions for the purpose of diseaster recovery purpose.
+    -  This are chosen by Microsoft,we cannot configure them.
+    
+-  Availability Zones
+    -  Collection of one more data centers
+    -  This are independent and have their own power,network and cooling.
+    
