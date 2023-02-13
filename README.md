@@ -14,12 +14,15 @@ go pricing.
 
 In simple terms cloud is a computer that is located somewhere else which can be accessed via the internet.
 
+<br>
 ### Types of cloud service offerings
 
 - IaaS(Infrastructure as a Service) --- In this offering CSP(cloud service providers) provide building blocks like networking,storage and compute.CSP manages all the physical infrastructure like staff,hardware and datacenter.For example AWS ec2,Azure VM,GCP compute engine etc.
 - PaaS(Platform as a Service) --- Customer is responsible for deployment and management of the apps .CSP manages the servers,hardware and OS.For example Azure app service.
 - SaaS(Software as a Service) --- Customer just configures the features.CSP is responsible for management and service availability.For example MS office 354,salesforce etc.
 
+
+<br>
 ### Cloud deployment model:
 
 -  Public Cloud -- When everything runs on your cloud provider's datacenter.
@@ -28,7 +31,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
    private cloud.
    example: A company may run everything on their data center but use cloud providers for their data backup.
  
- 
+ <br>
  ### Advantages of cloud computing.
  
  1.  Scalabilty: The ability of a system to handle growth of users or work.
@@ -46,6 +49,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
 -  High Availability: The ability to keep services up and running for long periods of time.
 -  Disaster Reconvery: The ability to recover from an event which has taken down a cloud service.For example: Data center failure .We can Azure use site recovery to bring instances quickly.
 
+<br>
 ### Shared responsibility model
 
 -  On-premesis
@@ -65,7 +69,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
   -  Customer is only responsible for their data.
   -  Everything is taken care of by CSP.
 
-
+<br>
 ### Azure Architecture components
 
 -  Azure Geography
@@ -81,4 +85,86 @@ In simple terms cloud is a computer that is located somewhere else which can be 
 -  Availability Zones
     -  Collection of one more data centers
     -  This are independent and have their own power,network and cooling.
+    
+    
+### Other architecuture components
+
+-  Management Groups👇🏻
+      -  Subscriptions👇🏻
+           -  Resource Groups👇🏻
+                 -  Resources
+                 
+1. Management Groups
+This provide the level of scope above subscriptions.It can contain multiple subscriptions.
+
+2. Subscriptions
+It is used to isolate resources between departments,projects etc.
+
+3. Resource Groups
+Resource Groups are containers that hold related resources together.This are used to group resources that share a common purpose.
+
+4. Resources 
+Resources are services/offerings offered by Azure.
+example: A virtual machine,virtual network etc.
+
+<br>
+
+##  Azure core Services
+                 
+### 💻__Compute__
+The following are some of the most popular compute services provided by Azure
+
+#### Azure VMs
+
+-  Virtual servers on the cloud.
+-  No need to purchase hardware.
+
+#### App Service
+
+-  An HTTP based service for hosting web applications ,REST APIs and mobile back ends.
+
+#### Azure Container Instance (ACI)
+
+-  It is a service used to run docker container on demand in a managed,serverless environment.
+-  No orchestration is needed.
+
+#### Azure Kubernetes Services (AKS)
+
+-  A hosted kubernetes service for kubernetes clusture.
+-  We need to manage the clusters.
+-  It is a free service,we only need to pay for nodes not for masters.
+
+#### Windows Virtual Desktop
+
+-  A desktop and app virtualization service that runs in Microsoft Azure.
+
+
+### 🌐__Network__
+
+The following are the network services provided by Azure
+
+#### Virtual Network(VNet)
+-  Our own logically isolated private network in Azure.
+-  It consist of subnets.
+-  We can connect this with our own on-premise data center using `Site-to-Site VPN`
+-  It allows to enable hybrid model.
+-  Resources in different VNets can't connect to each other by default.
+
+#### VPN Gateway
+
+-  It is the core component of hybrid cloud.
+-  It is used to send traffic between Azure VNets and on-premises location over the intenet.
+
+#### VNET Peering
+
+-  It is used to connect two or more virtual networks (VNets) in Azure.
+
+#### ExpressRoute
+
+-  Connects our on-premises networks into Azure over a private-connection without using the internet.
+-  Traffic does not traverse the internet.
+
+
+
+
     
