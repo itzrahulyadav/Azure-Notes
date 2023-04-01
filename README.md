@@ -229,7 +229,116 @@ Azure provides with following types of databases:
 
 - A paas relational database service in the Microsoft cloud based on the MySQL community edition.
 
-#### 
+#### Sql managed instance
+
+- cloud database service that combines the broadcast sql server database engine compatibility with all
+the benefits of a Paas.
+
+#### Azure MarketPlace
+
+- catalog of more than 30000 certified apps and services.
+- Deploy seamlessly,and simplify billing with a single bill for all Microsoft and third-party solutions.
+
+
+### Core solutions available in Azure
+
+1. IOT,IoT central, and Azure sphere.
+2. Azure Synapses Analytics,HDInsight,and Azure Databricks.
+3. Azure Machine Learning,Cognitive services and Azure Bot Service.
+4. Serverless computing solutions that include Azure Functions and Logic apps.
+5. Azure DevOps,Github,Github Actions, and Azure DevTest Labs.
+
+
+#### IoT Hub
+
+- A central message hub for bi-directional communication between our IoT app and the Devices it manages.
+
+#### IoT central
+
+- An IoT application platform that simplifies the creation of IoT solutions.
+- Helps to reduce the burden and cost of IoT management operations, and development.
+- A fully managed SaaS solution.
+
+#### Azure Sphere
+
+- A secure,high-level application platform with built-in communication and security features for internet-connected devices.
+
+- Basically,a Linux-based operating system(OS),and a cloud-based security services that provides continuous,renewable security.
+
+- Created by Microsoft to run on an Azure Sphere-certified chip and to connect to the Azure Sphere Security services.A p
+
+### Data Warehouse
+
+#### Data Lake
+
+-  A technology that enables big data analytics and artificial intelligence.
+
+-  Provides cloud storage that is less expensive than relational databases cloud storage.
+
+-  Stores data from business systems and data warehouse,as well as device and sensor data.
+
+-  A place to store,organize and analyze large volumes structured and unstructured data of diverse data from diverse sources.
+
+#### Synapses Analytics 
+
+-  An integrated analytics service that accelerates time to insight across data warehouse and big data Systems.
+
+
+#### HDInsight
+
+-  A cloud distribution of Hadoop components that makes it easy,fast,and cost-effective to process massive amounts of data.
+-  Supports popular open-source frameworks such as Hadoop,Spark,Hive,LLAP,Kafka,Storm,R and more.
+
+
+#### Databricks
+
+-  A data analytics platform optimised for the Microsoft Azure cloud services platform.
+
+-  Offers two environments for developing data intensive applications:Azure Databricks SQL Analytics and Azure Databricks Workspace.
+
+### Machine Learning
+
+#### Azure Machine Learning
+
+-  A cloud-based environment you can use to train,deploy,automate,manage and track ML models.
+
+#### Cognitive Services 
+
+-  Cloud-based services with REST APIs and clint library SDKs available to help you build cognitive intelligence into your applications.
+
+-  Provides cognitive understanding categorized into five main pillars:vision,speech,language,decision and search.
+
+#### Azure Bot Service
+
+-  A managed bot development service that helps you easily connect to your users via popular channels.
+-  Provides an integrated environment that is purpose-built for bot development.
+
+### Serverless
+
+#### Logic App
+
+- Cloud service that helps you schedule,automate and orchestrate tasks,business process and workflows.
+
+- You can choose from a gallery of hunderds of pre-built connectors for MSFT & 3rd party services.
+
+#### Functions
+
+- An event driven, compute-on-demand experience that extends the existing Azure application platform with capabalities to implement code triggered 
+ by events occuring in Azure as well as on-premises systems.
+ 
+#### Event Grid
+
+-  Enables you to easily manage events across many different Azure services and applications.
+-  pub/sub model
+
+- Once a subscriptions is created,Event Grid will push events to the configured destination 
+- Makes it easy for any developers to utilize the "push" model instead of the inefficient pull across their serverless architecture.
+
+
+### Serverless vs PaaS
+
+
+
 
 
 
