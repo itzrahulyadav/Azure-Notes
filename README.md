@@ -163,6 +163,77 @@ The following are the network services provided by Azure
 
 -  Connects our on-premises networks into Azure over a private-connection without using the internet.
 -  Traffic does not traverse the internet.
+-  more secure
+
+### Database storage
+
+Types of storage in azure
+
+1. Blob storage
+2. Disk storage
+3. File storage
+4. Storage tiers
+
+#### Blob storage
+
+- Storage optimised for storing massive amounts of unstructured data.
+
+#### File storage
+
+- Fully managed file shares in Azure accessible via SMB or NFS
+
+#### Disk storage
+
+- Azure managed disks are block-level storage volumes that are managed by azure and used with azure VMs
+
+#### Storage tiers
+
+- Azure storage hot,cool and archieve access tiers to store blob object data in a cost-effective manner.
+
+- We can use lifecycle management policies to automate tiers
+
+#### Table storage
+
+- A service that stores structured NoSql data in azure,including a schemaless key/attribute store
+
+#### Queue storage
+
+- A service for storing large numbers of messages,accessible from anywhere via authenticated http or https calls.
+
+### Databases
+
+Azure provides with following types of databases:
+
+1. Cosmos DB
+2. Mysql
+3. PostgreSQL
+4. Ms SQL
+5. Sql managed instance
+
+#### Cosmos DB
+
+- fully managed noSql database
+- features ultra-low response latency,and apis for several popular languages and db platforms
+- fast global access and data convergence
+- It can work as sql ,mongodb,gremlin,cassandra and spark as well.
+
+#### MS sql
+
+- fully managed paas database engine that handles most management functions such as upgrading,patching,backups and monitoring.
+
+#### PostgreSQL
+
+- a relational database service in the microsoft cloud based on the postgreSQL community edition.
+
+#### MY Sql
+
+- A paas relational database service in the Microsoft cloud based on the MySQL community edition.
+
+#### 
+
+
+
+
 
 
 
