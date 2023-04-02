@@ -15,7 +15,7 @@ go pricing.
 In simple terms cloud is a computer that is located somewhere else which can be accessed via the internet.
 
 <br>
-### Types of cloud service offerings
+###  Types of cloud service offerings
 
 - IaaS(Infrastructure as a Service) --- In this offering CSP(cloud service providers) provide building blocks like networking,storage and compute.CSP manages all the physical infrastructure like staff,hardware and datacenter.For example AWS ec2,Azure VM,GCP compute engine etc.
 - PaaS(Platform as a Service) --- Customer is responsible for deployment and management of the apps .CSP manages the servers,hardware and OS.For example Azure app service.
@@ -23,7 +23,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
 
 
 <br>
-### Cloud deployment model:
+###  Cloud deployment model:
 
 -  Public Cloud -- When everything runs on your cloud provider's datacenter.
 -  Private Cloud -- When the company uses its own datacenter and everything is owned and managed by the company itself.
@@ -32,7 +32,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
    example: A company may run everything on their data center but use cloud providers for their data backup.
  
  <br>
- ### Advantages of cloud computing.
+ ###  Advantages of cloud computing.
  
  1.  Scalabilty: The ability of a system to handle growth of users or work.
  2.  Elasticity: The ability of a system to automatically grow and shrink based on app demand
@@ -44,13 +44,13 @@ In simple terms cloud is a computer that is located somewhere else which can be 
  8.  (Consumption based model)Pay-as-you-go: You are only charged for what you use and for how long you use it.
 
 
-### Other benefits of cloud Computing.
+###  Other benefits of cloud Computing.
 -  Fault Tolerance:Failure of components.
 -  High Availability: The ability to keep services up and running for long periods of time.
 -  Disaster Reconvery: The ability to recover from an event which has taken down a cloud service.For example: Data center failure .We can Azure use site recovery to bring instances quickly.
 
 <br>
-### Shared responsibility model
+###  Shared responsibility model
 
 -  On-premesis
       -  It is 100% customers responsibility
@@ -70,7 +70,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
   -  Everything is taken care of by CSP.
 
 <br>
-### Azure Architecture components
+###  Azure Architecture components
 
 -  Azure Geography
     -  A discrete market,typically containing two or more regions,that preserves data residency and compliance boundaries.
@@ -87,7 +87,7 @@ In simple terms cloud is a computer that is located somewhere else which can be 
     -  This are independent and have their own power,network and cooling.
     
     
-### Other architecuture components
+###  Other architecuture components
 
 -  Management Groups👇🏻
       -  Subscriptions👇🏻
@@ -338,6 +338,119 @@ the benefits of a Paas.
 ### Serverless vs PaaS
 
 ![Screenshot_20230402-011544_Video Player](https://user-images.githubusercontent.com/65400893/229311239-beb40b4f-1a04-486c-9450-14dc451043e6.jpg)
+
+
+### DevOps in Azure
+
+#### Azure DevOps
+
+- A single platform for implementing DevOps deploying code using the ci/cd framework facilitating Agile software devlopment.
+
+#### Github
+
+- Github is a web-based git repository hosting service for source code management and distributed revision control.
+- It offers the functionality of Git as well as adding its own features.
+
+#### Azure DevTest Labs
+
+- Provides a self-service sandbox environment to quickly create Dev/Test environments while minimizing waste and controlling costs.
+
+### Azure management tools
+
+-  Following are the managemnt tools 
+
+####  Azure Portal
+
+-  A web-based,unified console where you can manage your azure subscription using a graphical user interface.
+
+#### Azure Cloud shell
+
+- An interactive,authenticated,browser-acessible shell for managing Azure resources.
+- It includes both Bash and Powershell options.
+
+#### Azure Powershell
+
+- A set of cmdlets for managing Azure resources directly from the powrshell command line.
+
+#### Azure Mobile App
+
+- App for Ios and Android that enables managing,tracking health and status,and troubleshooting your Azure resources.
+
+#### Azure CLI
+
+- The Azure command-line interface(Azure CLI) is a set of commands used to create and manage Azure resources.
+
+#### Azure Advisor
+
+- Scans your Azure configuration and recommends changes to optimize deployments,increase security and save your money.
+- Analyzes the configuration of the resources present in the Azure Subscriptions.
+- High availability,security,performance costs.
+
+#### ARM templates
+
+- A Json file that defines the infrastructure and configuration for your project.
+- Templates use declarative syntax and are idempotent which means you can deploy many times and get same resources and state.
+- IaC 
+- Azure cli,powershell,devops can be used to define.
+
+#### Azure monitor
+
+- A service that collects monitoring telemetry from a variety of on-premises and Azure sources.
+- Management tools like Azure Security center,push log data to Azure monitor.
+- Azure monitor aggregates and stores this telemetry in an Azure log Analytics instance.
+
+#### Azure serice health
+
+- Notifies you about Azure service incidents and planned maintenance so you can take action to mitigate downtime.
+
+### Azure security features
+
+#### Azure security center
+
+-  A unified infrastructure security management system that strengthens the security posture of your data centers(cloud and on premises)
+-  provides security guidance for compute,data,network,storage,app,and other services.
+
+#### Key vault
+
+- A cloud service for securely storing accessing secrets.
+- A secret is anything that you want to tightly control access to,such as API Keys,passwords,certificates,or cryptographic keys.
+
+#### Azure Sentinel
+
+- A cloud-native security information event management and security orchestration automated response solution.
+
+
+#### DEdicated hosts
+
+- A service that provides dedicated physical servers able to host one or more virtual machines in one Azure subscriptions.
+
+###  Network security
+
+#### Defence in depth
+
+-  A layered approach that does not rely on one method to completely protect your environment.
+
+#### Network security group
+
+-  Contains security rules that allow or deny inbound network traffic to,or outbound network traffic from,several types of azure resources.
+-  For each rule,you can specify source and destination port and protocol
+-  Can be applied to subnet or network adapter.
+
+#### Azure firewall
+
+-  A managed,cloud based network security service that protects your azure virtual network resources.
+-  It's a fully stateful firewall as a service with built-in high availabiltiy and unrestricted cloud scalability.
+
+#### Azure DDoS
+
+-  standard tier provides enhanced DDoS mitigation feaatures to defend agains ddos attacks.
+-  Also includes logging,alerting and telemetry not includes in the free Basic tier present by default.
+
+
+
+
+
+
 
 
 
