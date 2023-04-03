@@ -446,7 +446,22 @@ the benefits of a Paas.
 -  standard tier provides enhanced DDoS mitigation feaatures to defend agains ddos attacks.
 -  Also includes logging,alerting and telemetry not includes in the free Basic tier present by default.
 
+### Identity,governance and compliance
 
+### Azure AD
+
+-  Azure active directory is a Microsoft's cloud based identity and access management service.
+-  It helps employee sign in and access resource in:
+     -  Internal resources,such as apps on your corporate network or custom cloud apps
+     -  External resources,such as Microsoft 365,the azure portal and many SaaS apps.
+     
+-  Single sign-on (sso)
+       -  Single sign-on means a user don't have to sign into every application they use.
+       -  The user logs in once and that credentials in used for multiple apps.
+      
+-  Conditional access
+      -  Used by Azure active Directory to bring signals together,to make decisions and enforce organizational policies.
+      
 
 
 
