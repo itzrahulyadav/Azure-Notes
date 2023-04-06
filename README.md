@@ -463,11 +463,48 @@ the benefits of a Paas.
       -  Used by Azure active Directory to bring signals together,to make decisions and enforce organizational policies.
       
 
+### Microsoft Privacy Statement
+
+It explains
+
+-  What data Microsoft processes.
+-  How microsoft processes it.
+-  For what purpose data is utilized.
 
 
 
+###  Product term site
+
+-  Contains all the terms and conditions for software and online services through Microsoft Commercial licensing programs.
+
+###  Data Protection amendment(DPA)
+
+-  Further defines the data processing and security terms for online services,including data compliance,disclosure,security,transfer and retention.
+
+### Trust center
+
+-  Where you can learn about the four foundational principles of trust:security,privacy,compliance and transparency.
+
+### Azure Sovereign regions
+
+-  Special regions that you might need to consider for compliance or legal purposes.
+-  Government,China,Germany
+
+###  Cost impacts
+
+-  Factors that can affect Azure resource costs include resource types,services,locations,ingress and egress traffic.
+
+#### Reducing costs
+
+-  Reserve virtual machines in advance and save up to 72 percent conpared to PAYG pricing with 1-yr or 3-yr commitment.
 
 
+#### Reserved capacity
+
+-  Achieve significant savings on Azure SQL database,Azure,Cosmos DB and Azure Synapse Analytics and Azure Cache for Redis.
+-  Enables you to more easily manage costs across predictable and variable workloads and help optimize budgeting and forecasting.
+-  Also includes 1-year and 3-year options.
+-  
 
 
 
