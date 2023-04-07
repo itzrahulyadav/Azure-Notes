@@ -504,6 +504,34 @@ It explains
 -  Achieve significant savings on Azure SQL database,Azure,Cosmos DB and Azure Synapse Analytics and Azure Cache for Redis.
 -  Enables you to more easily manage costs across predictable and variable workloads and help optimize budgeting and forecasting.
 -  Also includes 1-year and 3-year options.
+
+#### Hybrid use benefits
+
+-  A licensing benefit that helps you to significantly reduce the costs of running your workloads in the cloud.
+-  Applies to Windows server,SQL server,RedHat and suse Linux.
+
+#### Spot Pricing
+
+- Access unused Azure compute capacity at deep discounts ---up to 90 percent compared to pay-as-you-go prices
+- Applies to Azure vms only
+
+#### Pricing calculator(Before you deploy)
+
+-  Interactive calculator that allows you to estimate Azure resource costs.
+-  Enables you to choose region,instance,tiers,etc to match functionality and budget needs.
+
+#### Azure cost management(After you deploy)
+
+-  A suite of tools provided by Microsoft that help you analyze,manage and optimize the costs of your workloads.
+
+#### Azure SLAs
+
+-  To provide a clear explanantion of availability of an Azure Service.
+
+#### Service Lifecycle
+
+-  open only to companies or users invited.
+-  For evalutaion only.
 -  
 
 
